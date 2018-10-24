@@ -9,8 +9,6 @@ import { FornitoreEditComponent} from './pages/fornitore-edit/fornitore-edit.com
 import { FornitoreListComponent} from './pages/fornitore-list/fornitore-list.component';
 import { RisorsaEditComponent} from './pages/risorsa-edit/risorsa-edit.component';
 import { RisorsaListComponent} from './pages/risorsa-list/risorsa-list.component';
-import { TecnologiaEditComponent} from './pages/tecnologia-edit/tecnologia-edit.component';
-import { TecnologiaListComponent} from './pages/tecnologia-list/tecnologia-list.component';
 
 /* END MY VIEWS IMPORT */
 
@@ -34,8 +32,6 @@ const routes: Routes = [
     { path: 'home',  loadChildren: './pages/home/home.module#HomeModule' , canActivate: [AuthGuard] },
     { path: 'risorsas/:id',  loadChildren: './pages/risorsa-edit/risorsa-edit.module#RisorsaEditModule' , canActivate: [AuthGuard] },
     { path: 'risorsas',  loadChildren: './pages/risorsa-list/risorsa-list.module#RisorsaListModule' , canActivate: [AuthGuard] },
-    { path: 'tecnologias/:id',  loadChildren: './pages/tecnologia-edit/tecnologia-edit.module#TecnologiaEditModule' , canActivate: [AuthGuard] },
-    { path: 'tecnologias',  loadChildren: './pages/tecnologia-list/tecnologia-list.module#TecnologiaListModule' , canActivate: [AuthGuard] },
 
  /* END MY VIEWS */
 
