@@ -20,10 +20,11 @@ import { Tecnologia } from '../../domain/t1_db/tecnologia';
 *	@description CRUD ACTION get
 *	@param ObjectId id Id 
 *
-* TecnologiaService.list
-*	@description CRUD ACTION list
+* FornitoreService.get
+*	@description CRUD ACTION get
+*	@param ObjectId id Id 
 *
-* FornitoreService.list
+* TecnologiaService.list
 *	@description CRUD ACTION list
 *
 * RisorsaService.update
